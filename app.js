@@ -8,8 +8,8 @@
 
 // root.appendChild(divContainer);
 
-
-
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 // Using React ........
 
@@ -28,9 +28,9 @@
 
 const mainDivContainer = React.createElement('div', { className: 'container' },
     [React.createElement('div', { id: 'first-container', key: 1 },
-        React.createElement('h1', { id: 'first-header' }, 'First Container')),
+        React.createElement('h1', { id: 'first-header' }, 'First Container Element')),
     React.createElement('div', { id: 'second-container', key: 2 },
-        React.createElement('h1', { id: 'second-header' }, 'Second Container'))]);
+        React.createElement('h1', { id: 'second-header' }, 'Second Container Element'))]);
 
 
 
